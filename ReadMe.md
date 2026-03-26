@@ -36,6 +36,39 @@ Docker汉化  Docker中文版  Docker Desktop汉化 Docker Windows Docker MAC
    - Ubuntu/Debian下默认为`/opt/docker-desktop/resources`
 3. 将从本仓库下载的asar文件改名为app.asar后替换原文件
 
+### Windows 一键安装脚本
+
+- 本仓库包含一个用于 Windows 的自动安装脚本：install-zh-windows.ps1。
+- 用法（以管理员身份运行 PowerShell）：
+
+  1. 将下载的汉化包 `app-Windows-x86.asar` 放到仓库根目录，或指定完整路径。
+  2. 以管理员身份打开 PowerShell，运行：
+
+     .\install-zh-windows.ps1 -AsarPath ".\app-Windows-x86.asar"
+
+- 脚本会备份原始 `app.asar`（添加时间戳）、替换为汉化包并尝试重启 Docker Desktop。
+- 如果脚本找不到 Docker 的资源目录，会提示手动指定或手动替换。
+
+### 自动下载并安装（推荐）
+
+- 本仓库附带 `auto-install-zh.ps1` 脚本，它会尝试检测本机的 Docker Desktop 版本和系统架构，
+  从本仓库的 Releases 中下载匹配的 `asar` 资产并调用安装脚本完成替换。
+- 用法（以管理员权限在仓库根目录运行）：
+
+  1. 直接运行自动下载并安装：
+
+    .\auto-install-zh.ps1
+
+  2. 指定本地 asar 并安装：
+
+    .\auto-install-zh.ps1 -AsarPath ".\app-Windows-x86.asar"
+
+  3. 指定架构（可选）：
+
+    .\auto-install-zh.ps1 -Arch arm
+
+- 脚本会在替换前备份原始 `app.asar`，并在安装后尝试重启 Docker Desktop。
+
 ## 最新版本效果图
 ### Windows
 ![](images/4.38/w1.png)

@@ -82,5 +82,14 @@ Docker汉化  Docker中文版  Docker Desktop汉化 Docker Windows Docker MAC
 有问题的可以扫码加群咨询。
 ![](images/1.jpg)
 
+## 仓库已打包的汉化包
+
+- 我已在本地从当前安装的 Docker Desktop 资源目录导出并打包：
+
+- 文件：`app-Windows-x86-4.66.0.222299.asar.zip`
+- 路径：仓库根目录（[release-draft-4.66.0-zh.md](release-draft-4.66.0-zh.md) 包含 SHA256 校验）
+
+- 你可以直接使用 `install-zh-windows.ps1` 安装或将此 `.zip` 上传到 GitHub Releases 作为发行资产。
+
 ## Stars
 如果你觉得本仓库对你有用的话，请点上一颗star。

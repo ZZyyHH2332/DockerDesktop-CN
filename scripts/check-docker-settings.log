@@ -1,0 +1,136 @@
+﻿2026-03-26T19:31:35 === start check-docker-settings ===
+2026-03-26T19:31:35 Checking: C:\Users\zyh97\AppData\Roaming\Docker\settings.json
+2026-03-26T19:31:36 MISSING: C:\Users\zyh97\AppData\Roaming\Docker\settings.json
+2026-03-26T19:31:36 Checking: C:\Users\zyh97\AppData\Local\Docker\settings.json
+2026-03-26T19:31:36 MISSING: C:\Users\zyh97\AppData\Local\Docker\settings.json
+2026-03-26T19:31:36 Checking: C:\ProgramData\Docker\settings.json
+2026-03-26T19:31:36 MISSING: C:\ProgramData\Docker\settings.json
+2026-03-26T19:31:36 Listing first 200 entries under C:\Users\zyh97\AppData\Local\Docker
+
+
+    目录: C:\Users\zyh97\AppData\Local\Docker
+
+
+Mode                 LastWriteTime         Length Name                         
+----                 -------------         ------ ----                         
+d-----         2026/3/24     18:27                log                          
+d-----         2026/3/26     17:29                run                          
+d-----         2026/3/26     17:29                tasks                        
+d-----         2026/3/26     19:22                wsl                          
+-a----         2026/3/24     18:27              0 backend.lock                 
+-a----         2026/3/24     18:20            842 install-log.0.txt            
+-a----         2026/3/24     18:20            953 install-log.1.txt            
+-a----         2026/3/24     18:21            953 install-log.txt              
+-a----         2026/3/24     18:27              3 volume-backup-schedule.json  
+
+
+    目录: C:\Users\zyh97\AppData\Local\Docker\log
+
+
+Mode                 LastWriteTime         Length Name                         
+----                 -------------         ------ ----                         
+d-----         2026/3/26     19:03                host                         
+d-----         2026/3/26     18:28                vm                           
+
+
+    目录: C:\Users\zyh97\AppData\Local\Docker\log\host
+
+
+Mode                 LastWriteTime         Length Name                         
+----                 -------------         ------ ----                         
+-a----         2026/3/26     19:15         194120 com.docker.backend.exe.log   
+-a----         2026/3/26     17:29        1048476 com.docker.backend.exe.log.0 
+-a----         2026/3/25     21:58        1048668 com.docker.backend.exe.log.1 
+-a----         2026/3/25     21:58         867683 com.docker.backend.exe.log.2 
+-a----         2026/3/25     21:42        1048401 com.docker.backend.exe.log.3 
+-a----         2026/3/25     22:08        1048499 com.docker.backend.exe.log.4 
+-a----         2026/3/24     22:31        1048574 com.docker.backend.exe.log.5 
+-a----         2026/3/26     18:59          54964 com.docker.build.log         
+-a----         2026/3/24     18:24           4390 Docker Desktop Installer.exe.
+                                                  log                          
+-a----         2026/3/26     19:15          22182 Docker Desktop.exe.log       
+-a----         2026/3/26     17:29           2470 Docker Desktop.exe.stderr.log
+-a----         2026/3/26     17:29           2527 Docker Desktop.exe.stdout.log
+-a----         2026/3/26     19:23          12802 docker-desktop.exe.log       
+-a----         2026/3/24     22:49          50316 electron-2026-03-24.log      
+-a----         2026/3/25     22:48          26625 electron-2026-03-25.log      
+-a----         2026/3/26     17:26           5065 electron-2026-03-26.log      
+-a----         2026/3/26     16:16            671 electron-audit-log.json      
+-a----         2026/3/24     18:27              0 electron-ui-console-2026-03-2
+                                                  4.log                        
+-a----         2026/3/25     20:37            245 electron-ui-console-2026-03-2
+                                                  5.log                        
+-a----         2026/3/26     16:16              0 electron-ui-console-2026-03-2
+                                                  6.log                        
+-a----         2026/3/26     16:16            715 electron-ui-console-audit-log
+                                                  .json                        
+-a----         2026/3/26     19:24         802413 httpproxy.log                
+-a----         2026/3/26     17:29           3021 inference.log                
+-a----         2026/3/26     19:15          25854 monitor.log                  
+-a----         2026/3/26     19:03        1047895 monitor.log.0                
+-a----         2026/3/25     22:08        1048489 monitor.log.1                
+-a----         2026/3/25     21:58        1048540 monitor.log.2                
+-a----         2026/3/25     21:58        1048502 monitor.log.3                
+-a----         2026/3/25     21:44        1048331 monitor.log.4                
+-a----         2026/3/25     21:28        1048322 monitor.log.5                
+-a----         2026/3/25     20:28        1048482 monitor.log.6                
+-a----         2026/3/24     22:28        1048417 monitor.log.7                
+-a----         2026/3/24     19:50        1048541 monitor.log.8                
+
+
+    目录: C:\Users\zyh97\AppData\Local\Docker\log\vm
+
+
+Mode                 LastWriteTime         Length Name                         
+----                 -------------         ------ ----                         
+-a----         2026/3/26     19:22          59395 init.log                     
+-a----         2026/3/26     18:28        1048563 init.log.0                   
+-a----         2026/3/25     18:42        1048571 init.log.1                   
+
+
+    目录: C:\Users\zyh97\AppData\Local\Docker\run
+
+
+Mode                 LastWriteTime         Length Name                         
+----                 -------------         ------ ----                         
+-a---l         2026/3/26     17:29              0 dockerInference              
+-a---l         2026/3/26     17:29              0 userAnalyticsOtlpHttp.sock   
+
+
+    目录: C:\Users\zyh97\AppData\Local\Docker\tasks
+
+
+Mode                 LastWriteTime         Length Name                         
+----                 -------------         ------ ----                         
+-a----         2026/3/26     17:29             92 34152.json                   
+
+
+    目录: C:\Users\zyh97\AppData\Local\Docker\wsl
+
+
+Mode                 LastWriteTime         Length Name                         
+----                 -------------         ------ ----                         
+d-----         2026/3/24     19:43                disk                         
+d-----         2026/3/26     19:22                main                         
+
+
+    目录: C:\Users\zyh97\AppData\Local\Docker\wsl\disk
+
+
+Mode                 LastWriteTime         Length Name                         
+----                 -------------         ------ ----                         
+-a----         2026/3/26     19:29     2727346176 docker_data.vhdx             
+
+
+    目录: C:\Users\zyh97\AppData\Local\Docker\wsl\main
+
+
+Mode                 LastWriteTime         Length Name                         
+----                 -------------         ------ ----                         
+-a----         2026/3/26     19:23      109051904 ext4.vhdx                    
+
+
+2026-03-26T19:31:36 Registry checks (HKCU)
+2026-03-26T19:31:36 REG MISSING: HKCU:\Software\Docker
+2026-03-26T19:31:36 REG MISSING: HKCU:\Software\Docker Inc.
+2026-03-26T19:31:36 === done check-docker-settings ===
